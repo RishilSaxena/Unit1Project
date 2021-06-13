@@ -58,6 +58,8 @@ nav img:hover {
 } */
 img {
   width: 100%;
+  opacity:100%;
+  transition: opacity 0.3s;
 }
 /* row{
     margin:0px;
@@ -83,6 +85,10 @@ img {
 }
 .image-holder:hover > h1{
     opacity:100%;
+}
+.image-holder:hover > img{
+  opacity:80%;
+  filter:blur(5px);
 }
 @media screen and (max-width:768px){
     .image-holder{
