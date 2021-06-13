@@ -52,12 +52,28 @@ nav img:hover {
   clear: both;
   display: block;
 }
-form input{
-    margin:20px;
-    padding:10px;
-    width:100%;
-    border-radius:10px;
+form input {
+  margin: 20px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border-color: black;
 }
-form input:focus{
-    box-shadow: 1px 1px 3px grey, -1px -1px 3px grey, 1px-1px 3px grey, -1px 1px 3px grey;
+input:focus {
+  box-shadow: 1px 1px 3px grey, -1px -1px 3px grey, 1px -1px 3px grey,
+    -1px 1px 3px grey;
+}
+button {
+  border-radius: 10px;
+  border-color: black;
+  width:20%;
+  height:40px;
+  background-color:white;
+  margin-bottom:20px;
+}
+button:hover{
+    background-color:grey;
+}
+a{
+    text-decoration:none;
 }
