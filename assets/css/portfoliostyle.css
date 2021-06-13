@@ -90,6 +90,9 @@ img {
   opacity:80%;
   filter:blur(5px);
 }
+video{
+  margin-left:200px;
+}
 @media screen and (max-width:768px){
     .image-holder{
         width:100%;
