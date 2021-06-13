@@ -44,7 +44,7 @@ nav a:hover {
   color: black;
   transform: scale(110%, 110%);
 }
-img:hover {
+nav img:hover {
   filter: brightness(0.25);
   transform: scale(110%, 110%);
 }
@@ -57,18 +57,27 @@ img:hover {
 .container {
   display: block;
 }
+.landing-image{
+  width:100%;
+}
+.main-content{
+  font-size:20px;
+}
 .sidebar {
   background-color: rgb(240, 240, 240);
   border-style: solid;
   border-width: 2px;
   border-radius: 5%;
 }
+.sidebar img{
+  width:100%;
+  padding:20px;
+}
 footer {
   background-color: dodgerblue;
   width: 100%;
-  position:absolute;
-  bottom:0;
   padding-bottom:25px;
+  margin-top:20px;
 }
 footer a {
   text-decoration: none;
@@ -85,3 +94,4 @@ footer p{
     padding-left:20px;
     color:white;
 }
+
