@@ -26,7 +26,7 @@ nav img {
   float: right;
   transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
   position: relative;
-  top:3px;
+  top: 3px;
 }
 
 nav {
@@ -52,29 +52,4 @@ nav img:hover {
   content: "";
   clear: both;
   display: block;
-}
-form input {
-  margin: 20px;
-  padding: 10px;
-  width: 100%;
-  border-radius: 10px;
-  border-color: black;
-}
-input:focus {
-  box-shadow: 1px 1px 3px grey, -1px -1px 3px grey, 1px -1px 3px grey,
-    -1px 1px 3px grey;
-}
-button {
-  border-radius: 10px;
-  border-color: black;
-  width:20%;
-  height:40px;
-  background-color:white;
-  margin-bottom:20px;
-}
-button:hover{
-    background-color:grey;
-}
-a{
-    text-decoration:none;
 }
